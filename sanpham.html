@@ -34,15 +34,19 @@
 
     <main>
       <h2>Toàn bộ Sản phẩm</h2>
-      <div class="product-list">
-        <div class="product">
-          <img src="./anh/ip.jpg" alt="iPhone 11" />
-          <h3>iPhone 11</h3>
-          <p>Giá: 7.000.000đ</p>
-          <button>Mua Ngay</button>
-          <button onclick="addToCart('Iphone 11', 7000000)">
-            Thêm vào giỏ hàng
-          </button>
+      <section class="highlight">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="product-list">
+          <div class="product">
+            <img src="./anh/ip.jpg" alt="Iphone 11" />
+            <h3 title="Iphone 11 Quốc tế 64GB">iPhone 11</h3>
+            <p>Giá: <strong>7.000.000đ</strong></p>
+            <p>64GB | Quốc tế | Mới 98%</p>
+            <button onclick="addToCart('Iphone 11', 7000000)">
+              Thêm vào giỏ hàng
+            </button>
+          </div>
+          <div class="product-list">
           <div class="product">
             <img src="./anh/oppo.jpg" alt="Oppo A56 5G"/>
             <h3 title="Oppo A56 5G FULLBOX Ram 8/256">Oppo A56 5G</h3>
@@ -55,18 +59,18 @@
             <button onclick="addToCart('Iphone 11', 7000000)">
               Thêm vào giỏ hàng
             </button>
+          </div>
+          <div class="product">
+            <img src="./anh/android.jpg" alt="Xiaomi 14" />
+            <h3 title="Xiaomi 14 Chính hãng">Xiaomi 14</h3>
+            <p>Giá: <strong>5.000.000đ</strong></p>
+            <p>8GB RAM | Chính hãng | BH 12 tháng</p>
+            <button onclick="addToCart('Xiaomi 14', 5000000)">
+              Thêm vào giỏ hàng
+            </button>
+          </div>
         </div>
-        <div class="product">
-          <img src="./anh/android.jpg" alt="Xiaomi 14" />
-          <h3>Xiaomi 14</h3>
-          <p>Giá: 5.000.000đ</p>
-          <button>Mua Ngay</button>
-          <button onclick="addToCart('Xiaomi 14', 5000000)">
-            Thêm vào giỏ hàng
-          </button>
-        </div>
-        <!-- Thêm nhiều sản phẩm hơn nếu bạn muốn -->
-      </div>
+      </section>
     </main>
 
     <footer>
