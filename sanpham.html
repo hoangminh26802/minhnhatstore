@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sản phẩm | Minh Nhật Store</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo-container">
+          <img
+            src="./anh/481780866_122093212556802956_3033451504716178783_n.jpg"
+            alt="Logo"
+            class="logo"
+          />
+          <span class="brand-name">Minh Nhật Store</span>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="sanpham.html">Sản Phẩm</a></li>
+            <li><a href="lienhe.html">Liên Hệ</a></li>
+            <li>
+              <a href="cart.html"
+                >🛒 Giỏ hàng (<span id="cartCount">0</span>)</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h2>Toàn bộ Sản phẩm</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="./anh/ip.jpg" alt="iPhone 11" />
+          <h3>iPhone 11</h3>
+          <p>Giá: 7.000.000đ</p>
+          <button>Mua Ngay</button>
+          <button onclick="addToCart('Iphone 11', 7000000)">
+            Thêm vào giỏ hàng
+          </button>
+        </div>
+        <div class="product">
+          <img src="./anh/android.jpg" alt="Xiaomi 14" />
+          <h3>Xiaomi 14</h3>
+          <p>Giá: 5.000.000đ</p>
+          <button>Mua Ngay</button>
+          <button onclick="addToCart('Xiaomi 14', 5000000)">
+            Thêm vào giỏ hàng
+          </button>
+        </div>
+        <!-- Thêm nhiều sản phẩm hơn nếu bạn muốn -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Minh Nhật Store</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
